@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/napbad/Projects/dgc/cmake-build-debug",
+	"dir-cur-src" : "/home/napbad/Projects/dgc",
+	"dir-top-bld" : "/home/napbad/Projects/dgc/cmake-build-debug",
+	"dir-top-src" : "/home/napbad/Projects/dgc",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir"
+}
