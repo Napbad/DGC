@@ -1,9 +1,0 @@
-# ninja log v6
-2	14	1729834348233417395	CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi	591f24e953b4a175
-1	14	1729834348233417395	CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi	3ba723975e158698
-1	14	1729834348233417395	CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi	ac9fdb582d13a6c0
-1	80	1729834348233417395	CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi	a5aae45c3c73b358
-2	70	1729834348233417395	CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi	d8ddf6ccf1414fa3
-1	104	1729834348230084050	CMakeFiles/dgc.dir/library.cpp.o.ddi	ceba2e98e408f1d0
-2	15	1729834442097080015	CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi	329b0958a26dfb6e
-2	123	1729834442097080015	CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi	c840c36281f35232
