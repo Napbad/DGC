@@ -64,142 +64,142 @@ build CMakeFiles/dgc.dir/library.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/na
   OBJECT_FILE_DIR = CMakeFiles/dgc.dir
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/dbg/debug_util.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/util/debug_util.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/dbg/debug_util.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/dbg/debug_util.cpp | CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.modmap
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/dbg
-  dyndep = CMakeFiles/dgc.dir/CXX.dd
-
-build CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/DataCopy.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi.i
-
-build CMakeFiles/dgc.dir/gc/DataCopy.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/DataCopy.cpp | CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/util/debug_util.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/util/debug_util.cpp | CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/util
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/DataNode.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/DataCopy.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/gc/DataNode.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/DataNode.cpp | CMakeFiles/dgc.dir/gc/DataNode.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/DataNode.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/DataCopy.cpp | CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/DataPath.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/DataNode.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/gc/DataPath.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/DataPath.cpp | CMakeFiles/dgc.dir/gc/DataPath.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/DataPath.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/DataNode.cpp | CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/DataRoot.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/DataPath.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/gc/DataRoot.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/DataRoot.cpp | CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/DataPath.cpp | CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/FunDataRoot.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/DataRoot.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/FunDataRoot.cpp | CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/DataRoot.cpp | CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/gc/GCable.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/FunDataRoot.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/gc/GCable.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/gc/GCable.cpp | CMakeFiles/dgc.dir/gc/GCable.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/gc/GCable.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/FunDataRoot.cpp | CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/gc
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/common/common_const.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/common/common_const.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/common/common_const.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/common/common_const.cpp | CMakeFiles/dgc.dir/common/common_const.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/common/common_const.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/common/common_const.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/common/common_const.cpp | CMakeFiles/dgc.dir/src/common/common_const.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/common/common_const.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/common
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/common
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/util/file_util.cpp || cmake_object_order_depends_target_dgc
-  DEP_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi
+build CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/util/file_util.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi.i
 
-build CMakeFiles/dgc.dir/util/file_util.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/util/file_util.cpp | CMakeFiles/dgc.dir/util/file_util.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
-  DEP_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/util/file_util.cpp.o.modmap
+build CMakeFiles/dgc.dir/src/util/file_util.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/util/file_util.cpp | CMakeFiles/dgc.dir/src/util/file_util.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/util/file_util.cpp.o.modmap
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/dgc.dir
-  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/util
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/util
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXModules.json CMakeFiles/dgc.dir/library.cpp.o.modmap CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.modmap CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.modmap CMakeFiles/dgc.dir/gc/DataNode.cpp.o.modmap CMakeFiles/dgc.dir/gc/DataPath.cpp.o.modmap CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.modmap CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.modmap CMakeFiles/dgc.dir/gc/GCable.cpp.o.modmap CMakeFiles/dgc.dir/common/common_const.cpp.o.modmap CMakeFiles/dgc.dir/util/file_util.cpp.o.modmap: CXX_DYNDEP__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o.ddi CMakeFiles/dgc.dir/dbg/debug_util.cpp.o.ddi CMakeFiles/dgc.dir/gc/DataCopy.cpp.o.ddi CMakeFiles/dgc.dir/gc/DataNode.cpp.o.ddi CMakeFiles/dgc.dir/gc/DataPath.cpp.o.ddi CMakeFiles/dgc.dir/gc/DataRoot.cpp.o.ddi CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o.ddi CMakeFiles/dgc.dir/gc/GCable.cpp.o.ddi CMakeFiles/dgc.dir/common/common_const.cpp.o.ddi CMakeFiles/dgc.dir/util/file_util.cpp.o.ddi | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXDependInfo.json
+build CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/test/gc_test.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/test/gc_test.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/test/gc_test.cpp | CMakeFiles/dgc.dir/test/gc_test.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/test/gc_test.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/test
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXModules.json CMakeFiles/dgc.dir/library.cpp.o.modmap CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/common/common_const.cpp.o.modmap CMakeFiles/dgc.dir/src/util/file_util.cpp.o.modmap CMakeFiles/dgc.dir/test/gc_test.cpp.o.modmap: CXX_DYNDEP__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o.ddi CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -209,7 +209,7 @@ build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CM
 #############################################
 # Link the static library libdgc.a
 
-build libdgc.a: CXX_STATIC_LIBRARY_LINKER__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o CMakeFiles/dgc.dir/dbg/debug_util.cpp.o CMakeFiles/dgc.dir/gc/DataCopy.cpp.o CMakeFiles/dgc.dir/gc/DataNode.cpp.o CMakeFiles/dgc.dir/gc/DataPath.cpp.o CMakeFiles/dgc.dir/gc/DataRoot.cpp.o CMakeFiles/dgc.dir/gc/FunDataRoot.cpp.o CMakeFiles/dgc.dir/gc/GCable.cpp.o CMakeFiles/dgc.dir/common/common_const.cpp.o CMakeFiles/dgc.dir/util/file_util.cpp.o
+build libdgc.a: CXX_STATIC_LIBRARY_LINKER__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o CMakeFiles/dgc.dir/src/util/debug_util.cpp.o CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o CMakeFiles/dgc.dir/src/common/common_const.cpp.o CMakeFiles/dgc.dir/src/util/file_util.cpp.o CMakeFiles/dgc.dir/test/gc_test.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/dgc.dir
   POST_BUILD = :
@@ -239,6 +239,48 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/napbad/Projects/dgc/cmake-build-debug && /home/napbad/Apps/IDEs/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/napbad/Projects/dgc/cmake-build-debug && /home/napbad/Apps/IDEs/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/napbad/Projects/dgc/cmake-build-debug && /home/napbad/Apps/IDEs/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.

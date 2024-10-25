@@ -1,5 +1,11 @@
 {
-	"bmi-installation" : null,
+	"bmi-installation" : 
+	{
+		"destination" : "lib",
+		"message-level" : "",
+		"permissions" : "",
+		"script-location" : "/home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/install-cxx-module-bmi-Debug.cmake"
+	},
 	"compiler-frontend-variant" : "GNU",
 	"compiler-id" : "GNU",
 	"compiler-simulate-id" : "",
