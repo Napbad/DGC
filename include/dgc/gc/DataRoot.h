@@ -11,7 +11,7 @@
 #include "DataNode.h"
 #include "FunDataRoot.h"
 #define GLOBAL_DATA_ROOT global_data_root
-#include "../reserve/d_define.h"
+#include "../common/d_define.h"
 
 
 class DataRoot final : public GCable

@@ -8,7 +8,8 @@
 #include "FunDataRoot.h"
 #include "GCable.h"
 #include "../util/debug_util.h"
-#include "../reserve/d_define.h"
+#include "../common/d_define.h"
+#include <sstream>
 
 template <typename T>
 class DataNode final : public GCable
@@ -59,9 +60,9 @@ template <typename T>
 void DataNode<T>::destroy()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Destroy DataNode: %p \n\0", *_data);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Destroy DataNode: " << _data << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     if (_data_cnt_size != 0)
     {
@@ -98,9 +99,9 @@ template <typename T>
 void DataNode<T>::des_cnt()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Decrementing DataNode: %p , now: %d\n\0", _data, _data_cnt_size - 1);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Decrementing DataNode: " << _data << " , now: " << (_data_cnt_size - 1) << "\n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     _data_cnt_size--;
 }
@@ -109,9 +110,9 @@ template <typename T>
 DataNode<T>* DataNode<T>::create(T* data)
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Creating DataNode: %p \n\0", *data);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Creating DataNode: " << data << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     return new DataNode(data);
 }
@@ -121,9 +122,9 @@ template <typename T>
 void DataNode<T>::link(T* data, FunDataRoot* fun_data_root)
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Linking DataNode: %p \n\0", data);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Linking DataNode: " << data << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     fun_data_root->add_data(DataNode::create(data));
 }

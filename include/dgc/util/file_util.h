@@ -6,7 +6,7 @@
 #define FILE_UTIL_H
 
 #define OUTPUT_DIR "../build/"
-#include "../reserve/d_define.h"
+#include "../common/d_define.h"
 
 #include <filesystem>
 #include <fstream>

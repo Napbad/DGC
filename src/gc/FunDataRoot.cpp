@@ -3,10 +3,10 @@
 //
 
 #include "../../include/dgc/gc/FunDataRoot.h"
-
 #include "../../include/dgc/gc/DataRoot.h"
-#include "../../include/dgc/reserve/d_define.h"
-#include "../../include/dgc/util//debug_util.h"
+#include "../../include/dgc/common/d_define.h"
+#include "../../include/dgc/util/debug_util.h"
+#include <sstream>
 
 class GCable;
 
@@ -34,9 +34,9 @@ void FunDataRoot::gc()
 void FunDataRoot::exit_fun()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Exit FunDataRoot: %p \n\0", this);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Exit FunDataRoot: " << this << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
 
     for (auto data : _data)
@@ -50,9 +50,9 @@ void FunDataRoot::exit_fun()
 void FunDataRoot::destroy()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Destroy FunDataRoot: %p \n\0", this);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Destroy FunDataRoot: " << this << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     for (const auto data : _data)
         data->destroy();
@@ -63,9 +63,9 @@ FunDataRoot* FunDataRoot::init()
     FunDataRoot* fdr = new FunDataRoot();
 
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Init FunDataRoot: %p \n\0", fdr);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "Init FunDataRoot: " << fdr << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     GLOBAL_DATA_ROOT->add_fun_data_root(fdr);
     return fdr;
@@ -79,9 +79,9 @@ int FunDataRoot::get_cnt()
 void FunDataRoot::des_cnt()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "FunDataRoot count decreasing: %p, now: %d \n\0", this, _cnt - 1);
-    dbg_util::dbg_print(std::cout, buffer);
+    std::stringstream ss;
+    ss << "FunDataRoot count decreasing: " << this << ", now: " << (_cnt - 1) << " \n";
+    dbg_util::dbg_print(std::cout, ss.str());
 #endif
     _cnt--;
 }

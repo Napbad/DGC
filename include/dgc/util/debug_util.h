@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <string>
-#include "../reserve/d_define.h"
+#include "../common/d_define.h"
 
 #include "../util/file_util.h"
 

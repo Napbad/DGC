@@ -1,18 +1,16 @@
 //
-// Created by napbadsen on 24-10-17.
+// Created by napbad on 10/25/24.
 //
 
-#ifndef FUNDATAROOT_H
-#define FUNDATAROOT_H
+#ifndef BLOCKDATAROOT_H
+#define BLOCKDATAROOT_H
 #include <string>
 #include <vector>
 
 #include "GCable.h"
 
-#include "../common/d_define.h"
-
-class FunDataRoot final : public GCable {
-
+class BlockDataRoot final : public GCable
+{
     std::string _name;
     std::vector<GCable*> _data;
     short _cnt = 1;
@@ -22,15 +20,15 @@ public:
 
     void gc() override;
 
-    void exit_fun();
+    void exit_block();
 
     void destroy() override;
 
-    static FunDataRoot* init();
+    static BlockDataRoot* init();
 
     int get_cnt() override;
 
     void des_cnt() override;
 };
 
-#endif //FUNDATAROOT_H
+#endif //BLOCKDATAROOT_H

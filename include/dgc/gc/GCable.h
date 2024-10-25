@@ -5,13 +5,13 @@
 #ifndef GCABLE_H
 #define GCABLE_H
 
-#include "../reserve/d_define.h"
+#include <atomic>
+
+#include "../common/d_define.h"
 
 class GCable
 {
-
-    u_int8_t _cnt = 1;
-
+    std::atomic_uint8_t _cnt = 1;
 
 public:
     virtual ~GCable() = default;

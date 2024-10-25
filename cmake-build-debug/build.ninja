@@ -199,7 +199,127 @@ build CMakeFiles/dgc.dir/test/gc_test.cpp.o: CXX_COMPILER__dgc_scanned_Debug /ho
   OBJECT_FILE_DIR = CMakeFiles/dgc.dir/test
   dyndep = CMakeFiles/dgc.dir/CXX.dd
 
-build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXModules.json CMakeFiles/dgc.dir/library.cpp.o.modmap CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/common/common_const.cpp.o.modmap CMakeFiles/dgc.dir/src/util/file_util.cpp.o.modmap CMakeFiles/dgc.dir/test/gc_test.cpp.o.modmap: CXX_DYNDEP__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o.ddi CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXDependInfo.json
+build CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GO_16bc.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GO_16bc.cpp | CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/obj/GO.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GO.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GO.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GO.cpp | CMakeFiles/dgc.dir/src/obj/GO.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GO.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GO_32bc.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GO_32bc.cpp | CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GO_64bc.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GO_64bc.cpp | CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GO_8bc.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GO_8bc.cpp | CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/util/obj_util.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/util/obj_util.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/util/obj_util.cpp | CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/util
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/obj/GOWrapper.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/obj/GOWrapper.cpp | CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/obj
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.ddi: CXX_SCAN__dgc_Debug /home/napbad/Projects/dgc/src/gc/BlockDataRoot.cpp || cmake_object_order_depends_target_dgc
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.ddi.i
+
+build CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o: CXX_COMPILER__dgc_scanned_Debug /home/napbad/Projects/dgc/src/gc/BlockDataRoot.cpp | CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.modmap || cmake_object_order_depends_target_dgc CMakeFiles/dgc.dir/CXX.dd
+  DEP_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/dgc.dir
+  OBJECT_FILE_DIR = CMakeFiles/dgc.dir/src/gc
+  dyndep = CMakeFiles/dgc.dir/CXX.dd
+
+build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXModules.json CMakeFiles/dgc.dir/library.cpp.o.modmap CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.modmap CMakeFiles/dgc.dir/src/common/common_const.cpp.o.modmap CMakeFiles/dgc.dir/src/util/file_util.cpp.o.modmap CMakeFiles/dgc.dir/test/gc_test.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GO.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.modmap CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.modmap CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.modmap CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.modmap: CXX_DYNDEP__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o.ddi CMakeFiles/dgc.dir/src/util/debug_util.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o.ddi CMakeFiles/dgc.dir/src/common/common_const.cpp.o.ddi CMakeFiles/dgc.dir/src/util/file_util.cpp.o.ddi CMakeFiles/dgc.dir/test/gc_test.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GO.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o.ddi CMakeFiles/dgc.dir/src/util/obj_util.cpp.o.ddi CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o.ddi CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o.ddi | /home/napbad/Projects/dgc/cmake-build-debug/CMakeFiles/dgc.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -209,7 +329,7 @@ build CMakeFiles/dgc.dir/CXX.dd | /home/napbad/Projects/dgc/cmake-build-debug/CM
 #############################################
 # Link the static library libdgc.a
 
-build libdgc.a: CXX_STATIC_LIBRARY_LINKER__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o CMakeFiles/dgc.dir/src/util/debug_util.cpp.o CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o CMakeFiles/dgc.dir/src/common/common_const.cpp.o CMakeFiles/dgc.dir/src/util/file_util.cpp.o CMakeFiles/dgc.dir/test/gc_test.cpp.o
+build libdgc.a: CXX_STATIC_LIBRARY_LINKER__dgc_Debug CMakeFiles/dgc.dir/library.cpp.o CMakeFiles/dgc.dir/src/util/debug_util.cpp.o CMakeFiles/dgc.dir/src/gc/DataCopy.cpp.o CMakeFiles/dgc.dir/src/gc/DataNode.cpp.o CMakeFiles/dgc.dir/src/gc/DataPath.cpp.o CMakeFiles/dgc.dir/src/gc/DataRoot.cpp.o CMakeFiles/dgc.dir/src/gc/FunDataRoot.cpp.o CMakeFiles/dgc.dir/src/common/common_const.cpp.o CMakeFiles/dgc.dir/src/util/file_util.cpp.o CMakeFiles/dgc.dir/test/gc_test.cpp.o CMakeFiles/dgc.dir/src/obj/GO_16bc.cpp.o CMakeFiles/dgc.dir/src/obj/GO.cpp.o CMakeFiles/dgc.dir/src/obj/GO_32bc.cpp.o CMakeFiles/dgc.dir/src/obj/GO_64bc.cpp.o CMakeFiles/dgc.dir/src/obj/GO_8bc.cpp.o CMakeFiles/dgc.dir/src/util/obj_util.cpp.o CMakeFiles/dgc.dir/src/obj/GOWrapper.cpp.o CMakeFiles/dgc.dir/src/gc/BlockDataRoot.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/dgc.dir
   POST_BUILD = :

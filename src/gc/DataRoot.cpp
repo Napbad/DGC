@@ -3,22 +3,25 @@
 //
 
 #include <string>
+#include "../../include/dgc/gc/FunDataRoot.h"
 
 #include "../../include/dgc/gc/DataRoot.h"
+#include "../../include/dgc/common/d_define.h"
+#include "../../include/dgc/util/debug_util.h"
 
+#include <vector>
 #include <chrono>
 #include <thread>
 
 class FunDataRoot;
 class GCable;
 class DataRoot;
-DataRoot* GLOBAL_DATA_ROOT = new DataRoot("root");
+
+DataRoot *GLOBAL_DATA_ROOT = new DataRoot("GLOBAL_DATA_ROOT");
 
 DataRoot::DataRoot(const std::string& name)
 {
     _name = name;
-    _data = {};
-    _fun_data = {};
 }
 
 void DataRoot::add_data(GCable* data)
@@ -34,8 +37,9 @@ void DataRoot::add_fun_data_root(FunDataRoot* data)
 void DataRoot::destroy()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Destroy DataRoot: %p \n\0", this);
+    std::ostringstream oss;
+    oss << "Destroy DataRoot: " << this << " \n";
+    std::string buffer = oss.str();
     dbg_util::dbg_print(std::cout, buffer);
 #endif
 
@@ -64,8 +68,9 @@ void DataRoot::gc()
 void DataRoot::start_gc()
 {
 #ifdef DEBUG_MODE
-    char buffer[50];
-    sprintf(buffer, "Start GC: %p \n\0", GLOBAL_DATA_ROOT);
+    std::ostringstream oss;
+    oss << "Start GC: " << GLOBAL_DATA_ROOT << " \n";
+    std::string buffer = oss.str();
     dbg_util::dbg_print(std::cout, buffer);
 #endif
 
@@ -74,7 +79,8 @@ void DataRoot::start_gc()
         GLOBAL_DATA_ROOT->auto_pick_time_gc();
     });
 
-    if (gc_thread.joinable()) {
+    if (gc_thread.joinable())
+    {
         gc_thread.join();
     }
 
@@ -86,8 +92,9 @@ void DataRoot::start_gc()
     while (true)
     {
 #ifdef DEBUG_MODE
-        char buffer[50];
-        sprintf(buffer, "Scheduled-GC: %p \n\0", this);
+        std::ostringstream oss;
+        oss << "Scheduled-GC: " << this << " \n";
+        std::string buffer = oss.str();
         dbg_util::dbg_print(std::cout, buffer);
 #endif
         std::this_thread::sleep_for(std::chrono::nanoseconds(nano_sec));
@@ -102,8 +109,9 @@ void DataRoot::start_gc()
     while (true)
     {
 #ifdef DEBUG_MODE
-        char buffer[50];
-        sprintf(buffer, "Auto pick time-GC: %p \n\0", this);
+        std::ostringstream oss;
+        oss << "Auto pick time-GC: " << this << " \n";
+        std::string buffer = oss.str();
         dbg_util::dbg_print(std::cout, buffer);
 #endif
         std::this_thread::sleep_for(std::chrono::nanoseconds(cost_time));
