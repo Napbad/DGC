@@ -1,5 +1,5 @@
-/build
-/cmake-build-debug
-install.sh
+**/build
+**/cmake-build-debug
+./install.sh
 
 .idea
