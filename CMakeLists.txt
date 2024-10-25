@@ -44,7 +44,6 @@ add_library(dgc STATIC library.cpp
         src/obj/GOWrapper.cpp
         include/dgc/gc/BlockDataRoot.h
         src/gc/BlockDataRoot.cpp
-        src/gc/BlockDataRoot.h
 )
 
 
